@@ -1,6 +1,7 @@
 public class AfishaManager {
     private String[] films = new String[0];
     private int limit;
+
     public AfishaManager() {
         this.limit = 10;
     }

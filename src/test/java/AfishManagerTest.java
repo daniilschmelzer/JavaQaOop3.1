@@ -1,4 +1,3 @@
-import jdk.management.jfr.FlightRecorderMXBean;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +5,7 @@ public class AfishManagerTest {
 
     @Test
     public void test() {
-        AfishaManager afisha  = new AfishaManager();
+        AfishaManager afisha = new AfishaManager();
         afisha.addFilm("film1");
         afisha.addFilm("film2");
         afisha.addFilm("film3");
